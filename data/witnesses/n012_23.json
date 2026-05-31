@@ -1,0 +1,127 @@
+{
+  "schema": "koizumi-n-avoiding-witness-v1",
+  "model": "|area(triangle)-N| > diam(triangle), for every triple of selected lattice points with repetitions allowed",
+  "claim": "verified_lower_bound",
+  "N": 12,
+  "size": 23,
+  "points": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      3,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      4,
+      1
+    ],
+    [
+      4,
+      2
+    ],
+    [
+      4,
+      3
+    ],
+    [
+      4,
+      4
+    ]
+  ],
+  "points_sha256": "4f4a74e71527637b87ad25277fc425896df3aef281b20429b730ffd9cf637ac7",
+  "verification": {
+    "ok": true,
+    "n": 12,
+    "size": 23,
+    "triple_count_with_repetition": 2300,
+    "max_diameter_squared": 32,
+    "max_twice_area": 15,
+    "min_margin_squared_numerator": 9,
+    "violation": null
+  },
+  "source": {
+    "reference": "BorisAlexeev comment in the Erdos Problems #352 discussion thread, 03:17 on 28 Dec 2025; reverified here by exact integer arithmetic",
+    "local_experiment_file": "exp/results/20260530v1.json",
+    "record": "forum_verification",
+    "method": "forum_witness_reverified",
+    "metadata": {
+      "diameter": 5.656854249492381,
+      "max_area": 7.5,
+      "min_margin": 0.25735931288071523
+    },
+    "author": "BorisAlexeev",
+    "url": "https://www.erdosproblems.com/forum/thread/352",
+    "comment_timestamp": "2025-12-28 03:17",
+    "note": "The comment gives results up to N=27 in the format N, f(N), and witness. This repository treats those rows as previously posted/forum baseline witnesses and independently rechecks the listed point sets."
+  }
+}

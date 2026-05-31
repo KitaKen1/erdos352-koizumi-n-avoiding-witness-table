@@ -1,0 +1,290 @@
+{
+  "schema": "koizumi-n-avoiding-witness-v1",
+  "model": "|area(triangle)-N| > diam(triangle), for every triple of selected lattice points with repetitions allowed",
+  "claim": "verified_lower_bound",
+  "N": 30,
+  "size": 61,
+  "points": [
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      5
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      1,
+      6
+    ],
+    [
+      1,
+      7
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      2,
+      7
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      3,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      3,
+      7
+    ],
+    [
+      3,
+      8
+    ],
+    [
+      4,
+      0
+    ],
+    [
+      4,
+      1
+    ],
+    [
+      4,
+      2
+    ],
+    [
+      4,
+      3
+    ],
+    [
+      4,
+      4
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      4,
+      6
+    ],
+    [
+      4,
+      7
+    ],
+    [
+      4,
+      8
+    ],
+    [
+      5,
+      0
+    ],
+    [
+      5,
+      1
+    ],
+    [
+      5,
+      2
+    ],
+    [
+      5,
+      3
+    ],
+    [
+      5,
+      4
+    ],
+    [
+      5,
+      5
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      5,
+      7
+    ],
+    [
+      5,
+      8
+    ],
+    [
+      6,
+      1
+    ],
+    [
+      6,
+      2
+    ],
+    [
+      6,
+      3
+    ],
+    [
+      6,
+      4
+    ],
+    [
+      6,
+      5
+    ],
+    [
+      6,
+      6
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      7,
+      1
+    ],
+    [
+      7,
+      2
+    ],
+    [
+      7,
+      3
+    ],
+    [
+      7,
+      4
+    ],
+    [
+      7,
+      5
+    ],
+    [
+      7,
+      6
+    ],
+    [
+      7,
+      7
+    ],
+    [
+      8,
+      3
+    ],
+    [
+      8,
+      4
+    ],
+    [
+      8,
+      5
+    ]
+  ],
+  "points_sha256": "1d34c3c76c8786d6137a7bca2f81ce5f4bc6b41d5bee5ac84149aeb8a89eee87",
+  "verification": {
+    "ok": true,
+    "n": 30,
+    "size": 61,
+    "triple_count_with_repetition": 39711,
+    "max_diameter_squared": 72,
+    "max_twice_area": 45,
+    "min_margin_squared_numerator": 13,
+    "violation": null
+  },
+  "source": {
+    "local_experiment_file": "exp/results/20260530v10.json",
+    "record": "witness_rows",
+    "method": "v5",
+    "metadata": {
+      "box_status": "proved_box_optimal",
+      "box": [
+        0,
+        8,
+        0,
+        8
+      ],
+      "bbox": [
+        0,
+        8,
+        0,
+        8
+      ],
+      "diameter": 8.48528137423857,
+      "max_area": 22.5,
+      "low_side_margin": 0.21989011071948283,
+      "n_avoiding_margin": 0.21989011071948195,
+      "low_side": true,
+      "high_area_triples": 0
+    }
+  }
+}

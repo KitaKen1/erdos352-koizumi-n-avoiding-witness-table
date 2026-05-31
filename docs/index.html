@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Koizumi N-Avoiding Witness Viewer</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <p class="eyebrow">Koizumi discrete model</p>
+      <h1>N-Avoiding Witness Viewer</h1>
+    </div>
+    <div class="scope">Lower-bound witnesses only</div>
+  </header>
+
+  <main class="layout">
+    <aside class="n-panel" aria-label="Witness selector">
+      <div class="selector-row">
+        <label for="nSelect">N</label>
+        <select id="nSelect"></select>
+      </div>
+      <div id="nGrid" class="n-grid"></div>
+    </aside>
+
+    <section class="viewer" aria-live="polite">
+      <div class="viewer-head">
+        <div>
+          <p class="eyebrow">Selected witness</p>
+          <h2 id="title">N=28</h2>
+        </div>
+        <div class="toolbar">
+          <button id="prevN" type="button" title="Previous N">Prev</button>
+          <button id="nextN" type="button" title="Next N">Next</button>
+          <label class="toggle"><input id="showLabels" type="checkbox"> labels</label>
+        </div>
+      </div>
+
+      <div id="stats" class="stats"></div>
+
+      <div class="plot-wrap">
+        <svg id="plot" role="img" aria-label="Witness point plot"></svg>
+      </div>
+
+      <div class="details">
+        <section>
+          <div class="section-head">
+            <h3>Coordinates</h3>
+            <button id="copyPoints" type="button">Copy</button>
+          </div>
+          <pre id="pointText"></pre>
+        </section>
+        <section>
+          <div class="section-head">
+            <h3>Verification</h3>
+            <button id="downloadJson" type="button">JSON</button>
+          </div>
+          <dl id="verifyList"></dl>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>All triples are checked exactly with gap = (A2 - 2N)^2 - 4D2.</span>
+    <span>N=1..27 source: BorisAlexeev forum comment, 2025-12-28 03:17.</span>
+    <a href="verification_ja.md">Japanese verification note</a>
+  </footer>
+
+  <script src="assets/witnesses.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>

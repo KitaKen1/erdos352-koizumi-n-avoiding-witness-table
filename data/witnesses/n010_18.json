@@ -1,0 +1,107 @@
+{
+  "schema": "koizumi-n-avoiding-witness-v1",
+  "model": "|area(triangle)-N| > diam(triangle), for every triple of selected lattice points with repetitions allowed",
+  "claim": "verified_lower_bound",
+  "N": 10,
+  "size": 18,
+  "points": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      3,
+      3
+    ],
+    [
+      4,
+      1
+    ],
+    [
+      4,
+      2
+    ],
+    [
+      4,
+      3
+    ]
+  ],
+  "points_sha256": "68e079df912fc7866a5bc5a658d19be8a28ee44baffee673dd063109883225e9",
+  "verification": {
+    "ok": true,
+    "n": 10,
+    "size": 18,
+    "triple_count_with_repetition": 1140,
+    "max_diameter_squared": 25,
+    "max_twice_area": 11,
+    "min_margin_squared_numerator": 13,
+    "violation": null
+  },
+  "source": {
+    "reference": "BorisAlexeev comment in the Erdos Problems #352 discussion thread, 03:17 on 28 Dec 2025; reverified here by exact integer arithmetic",
+    "local_experiment_file": "exp/results/20260530v1.json",
+    "record": "forum_verification",
+    "method": "forum_witness_reverified",
+    "metadata": {
+      "diameter": 5.0,
+      "max_area": 5.5,
+      "min_margin": 0.3768943743823394
+    },
+    "author": "BorisAlexeev",
+    "url": "https://www.erdosproblems.com/forum/thread/352",
+    "comment_timestamp": "2025-12-28 03:17",
+    "note": "The comment gives results up to N=27 in the format N, f(N), and witness. This repository treats those rows as previously posted/forum baseline witnesses and independently rechecks the listed point sets."
+  }
+}

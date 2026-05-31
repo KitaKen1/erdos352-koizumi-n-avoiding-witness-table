@@ -1,0 +1,10 @@
+[project]
+name = "koizumi-witness-table"
+version = "0.1.0"
+description = "Public witness table and verifier for Koizumi N-avoiding lattice sets."
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
