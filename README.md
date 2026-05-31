@@ -29,9 +29,11 @@ Verified lower bounds `f(N) >= |S|` for `N=1..40`:
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | size | 63 | 65 | 69 | 69 | 72 | 74 | 76 | 78 | 80 | 82 |
 
-## You can check on html Viewer interactively !
 
-You can check the witnesses visually in the GitHub Pages viewer.
+## You can check on the HTML viewer interactively!
+
+Click here to open the interactive GitHub Pages viewer:
+<https://kitaken1.github.io/erdos352-koizumi-n-avoiding-witness-table/>
 
 ![Screenshot of the interactive witness viewer](img/fig.png)
 
